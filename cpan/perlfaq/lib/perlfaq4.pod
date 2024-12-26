@@ -414,6 +414,10 @@ L<Math::Random::ISAAC> ("Indirection, Shift, Accumulate, Add, and Count", really
 More algorithms for random numbers are described in
 "Numerical Recipes in C" at L<http://www.nr.com/>
 
+There are several modules to sample system sources of random numbers,
+which are useful for security tokens and cryptography. For example,
+L<Crypt::URandom>.
+
 =head2 How do I get a random number between X and Y?
 
 To get a random number between two values, you can use the C<rand()>
