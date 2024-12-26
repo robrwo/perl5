@@ -218,6 +218,7 @@ Math::Big
 Math::BigInt::Constant
 Math::BigInt::GMP
 Math::BigInt::Pari
+Math::Random::ISAAC
 Math::Random::MT::Perl
 Math::TrulyRandom
 mbrlen(3)
